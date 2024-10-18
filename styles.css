@@ -78,3 +78,18 @@ input, textarea {
 input:focus, textarea:focus {
     border-color: #007BFF;
 }
+
+/* Flexbox layout for the main div */
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Column Styles */
+#left, #center, #right {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
